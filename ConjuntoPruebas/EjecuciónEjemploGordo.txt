@@ -1,0 +1,120 @@
+time ./CalcArboles EjemploGordo.dat EjemploGordo.aux
+Datos Entrada:
+        ?rboles: 25.
+        ?rbol 1-> (1,0) Coste:8, Long:13.
+        ?rbol 2-> (2,4) Coste:13, Long:2.
+        ?rbol 3-> (2,10) Coste:7, Long:10.
+        ?rbol 4-> (4,1) Coste:5, Long:12.
+        ?rbol 5-> (5,6) Coste:4, Long:5.
+        ?rbol 6-> (2,3) Coste:2, Long:8.
+        ?rbol 7-> (-1,0) Coste:18, Long:3.
+        ?rbol 8-> (-7,4) Coste:3, Long:2.
+        ?rbol 9-> (2,1) Coste:7, Long:1.
+        ?rbol 10-> (6,2) Coste:12, Long:23.
+        ?rbol 11-> (2,5) Coste:14, Long:15.
+        ?rbol 12-> (9,-2) Coste:9, Long:8.
+        ?rbol 13-> (2,4) Coste:13, Long:2.
+        ?rbol 14-> (2,-1) Coste:7, Long:10.
+        ?rbol 15-> (4,1) Coste:12, Long:3.
+        ?rbol 16-> (-3,6) Coste:14, Long:5.
+        ?rbol 17-> (2,-3) Coste:9, Long:8.
+        ?rbol 18-> (1,0) Coste:18, Long:6.
+        ?rbol 19-> (9,4) Coste:3, Long:2.
+        ?rbol 20-> (2,1) Coste:7, Long:4.
+        ?rbol 21-> (-2,2) Coste:22, Long:9.
+        ?rbol 22-> (3,5) Coste:4, Long:6.
+        ?rbol 23-> (2,-3) Coste:9, Long:8.
+        ?rbol 24-> (1,1) Coste:10, Long:10.
+        ?rbol 25-> (2,2) Coste:20, Long:20.
+Evaluacin Combinaciones posibles:
+        C1 ->    1 arboles cortados: 8                                                   Madera:2.00    Cerca:45.58     Coste:999999
+        C2 ->    1 arboles cortados: 19                                                   Madera:2.00   Cerca:42.31     Coste:999999
+        C3 ->    2 arboles cortados: 8 19                                                 Madera:4.00   Cerca:44.30     Coste:999999
+        C4 ->    1 arboles cortados: 12                                                   Madera:8.00   Cerca:40.01     Coste:999999
+        C5 ->    2 arboles cortados: 8 12                                                 Madera:10.00          Cerca:39.77     Coste:999999
+        C6 ->    2 arboles cortados: 19 12                                                 Madera:10.00         Cerca:33.55     Coste:999999
+        C7 ->    3 arboles cortados: 8 19 12                                               Madera:12.00         Cerca:36.18     Coste:999999
+        C8 ->    1 arboles cortados: 10                                                   Madera:23.00          Cerca:48.44     Coste:999999
+        C9 ->    2 arboles cortados: 8 10                                                 Madera:25.00          Cerca:45.58     Coste:999999
+        C10 ->   2 arboles cortados: 19 10                                                 Madera:25.00         Cerca:42.32     Coste:999999
+        C11 ->   3 arboles cortados: 8 19 10                                               Madera:27.00         Cerca:44.30     Coste:999999
+        C12 ->   2 arboles cortados: 12 10                                                 Madera:31.00         Cerca:39.68     Coste:999999
+        C13 ->   3 arboles cortados: 8 12 10                                               Madera:33.00         Cerca:39.77     Coste:999999
+        C14 ->   3 arboles cortados: 19 12 10                                               Madera:33.00        Cerca:33.57     Coste:999999
+        C15 ->   4 arboles cortados: 8 19 12 10                                             Madera:35.00        Cerca:32.78     Coste:27***
+        C16 ->   1 arboles cortados: 5                                                   Madera:5.00    Cerca:48.76     Coste:999999
+        C17 ->   2 arboles cortados: 8 5                                                 Madera:7.00    Cerca:45.58     Coste:999999
+        C18 ->   2 arboles cortados: 19 5                                                 Madera:7.00   Cerca:42.31     Coste:999999
+        C19 ->   3 arboles cortados: 8 19 5                                               Madera:9.00   Cerca:44.25     Coste:999999
+        C20 ->   2 arboles cortados: 12 5                                                 Madera:13.00          Cerca:40.01     Coste:999999
+        C21 ->   3 arboles cortados: 8 12 5                                               Madera:15.00          Cerca:39.77     Coste:999999
+        C22 ->   3 arboles cortados: 19 12 5                                               Madera:15.00         Cerca:33.55     Coste:999999
+        C23 ->   4 arboles cortados: 8 19 12 5                                             Madera:17.00         Cerca:36.00     Coste:999999
+        C24 ->   2 arboles cortados: 10 5                                                 Madera:28.00          Cerca:48.44     Coste:999999
+        C25 ->   3 arboles cortados: 8 10 5                                               Madera:30.00          Cerca:45.58     Coste:999999
+        C26 ->   3 arboles cortados: 19 10 5                                               Madera:30.00         Cerca:38.37     Coste:999999
+        C27 ->   4 arboles cortados: 8 19 10 5                                             Madera:32.00         Cerca:44.25     Coste:999999
+        C28 ->   3 arboles cortados: 12 10 5                                               Madera:36.00         Cerca:39.68     Coste:999999
+        C29 ->   4 arboles cortados: 8 12 10 5                                             Madera:38.00         Cerca:39.77     Coste:999999
+        C30 ->   4 arboles cortados: 19 12 10 5                                             Madera:38.00        Cerca:29.61     Coste:28
+        C31 ->   5 arboles cortados: 8 19 12 10 5                                           Madera:40.00        Cerca:36.98     Coste:31
+        C32 ->   1 arboles cortados: 15                                                   Madera:3.00   Cerca:48.76     Coste:999999
+        C33 ->   2 arboles cortados: 8 15                                                 Madera:5.00   Cerca:45.58     Coste:999999
+        C34 ->   2 arboles cortados: 19 15                                                 Madera:5.00          Cerca:42.31     Coste:999999
+        C35 ->   3 arboles cortados: 8 19 15                                               Madera:7.00          Cerca:44.30     Coste:999999
+        C36 ->   2 arboles cortados: 12 15                                                 Madera:11.00         Cerca:40.01     Coste:999999
+        C37 ->   3 arboles cortados: 8 12 15                                               Madera:13.00         Cerca:39.77     Coste:999999
+        C38 ->   3 arboles cortados: 19 12 15                                               Madera:13.00        Cerca:33.55     Coste:999999
+        C39 ->   4 arboles cortados: 8 19 12 15                                             Madera:15.00        Cerca:36.18     Coste:999999
+        C40 ->   2 arboles cortados: 10 15                                                 Madera:26.00         Cerca:48.44     Coste:999999
+        C41 ->   3 arboles cortados: 8 10 15                                               Madera:28.00         Cerca:45.58     Coste:999999
+        C42 ->   3 arboles cortados: 19 10 15                                               Madera:28.00        Cerca:42.32     Coste:999999
+        C43 ->   4 arboles cortados: 8 19 10 15                                             Madera:30.00        Cerca:44.30     Coste:999999
+        C44 ->   3 arboles cortados: 12 10 15                                               Madera:34.00        Cerca:39.68     Coste:999999
+        C45 ->   4 arboles cortados: 8 12 10 15                                             Madera:36.00        Cerca:39.77     Coste:999999
+        C46 ->   4 arboles cortados: 19 12 10 15                                             Madera:36.00       Cerca:33.57     Coste:36
+        C47 ->   5 arboles cortados: 8 19 12 10 15                                           Madera:38.00       Cerca:32.78     Coste:39
+..................................................
+..................................................
+..................................................
+	     C33554395 ->     23 arboles cortados: 8 19 10 5 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:184.00   Cerca:11.66     Coste:229
+        C33554396 ->     22 arboles cortados: 12 10 5 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:188.00   Cerca:33.23     Coste:232
+        C33554397 ->     23 arboles cortados: 8 12 10 5 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:190.00   Cerca:11.66     Coste:235
+        C33554398 ->     23 arboles cortados: 19 12 10 5 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:190.00          Cerca:22.80     Coste:235
+        C33554399 ->     24 arboles cortados: 8 19 12 10 5 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25     Madera:192.00          Cerca:0.00      Coste:238
+        C33554400 ->     20 arboles cortados: 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25             Madera:155.00    Cerca:38.20     Coste:219
+        C33554401 ->     21 arboles cortados: 8 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25           Madera:157.00    Cerca:19.60     Coste:222
+        C33554402 ->     21 arboles cortados: 19 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25           Madera:157.00   Cerca:38.20     Coste:222
+        C33554403 ->     22 arboles cortados: 8 19 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:159.00   Cerca:18.07     Coste:225
+        C33554404 ->     21 arboles cortados: 12 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25           Madera:163.00   Cerca:29.44     Coste:228
+        C33554405 ->     22 arboles cortados: 8 12 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:165.00   Cerca:12.20     Coste:231
+        C33554406 ->     22 arboles cortados: 19 12 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:165.00          Cerca:29.44     Coste:231
+        C33554407 ->     23 arboles cortados: 8 19 12 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:167.00          Cerca:8.25      Coste:234
+        C33554408 ->     21 arboles cortados: 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25           Madera:178.00   Cerca:38.20     Coste:231
+        C33554409 ->     22 arboles cortados: 8 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:180.00   Cerca:19.42     Coste:234
+        C33554410 ->     22 arboles cortados: 19 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:180.00          Cerca:38.20     Coste:234
+        C33554411 ->     23 arboles cortados: 8 19 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:182.00          Cerca:17.89     Coste:237
+        C33554412 ->     22 arboles cortados: 12 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:186.00          Cerca:32.64     Coste:240
+        C33554413 ->     23 arboles cortados: 8 12 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:188.00          Cerca:8.94      Coste:243
+        C33554414 ->     23 arboles cortados: 19 12 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:188.00         Cerca:24.33     Coste:243
+        C33554415 ->     24 arboles cortados: 8 19 12 10 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25     Madera:190.00         Cerca:0.00      Coste:246
+        C33554416 ->     21 arboles cortados: 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25           Madera:160.00    Cerca:41.69     Coste:223
+        C33554417 ->     22 arboles cortados: 8 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:162.00    Cerca:14.61     Coste:226
+        C33554418 ->     22 arboles cortados: 19 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:162.00   Cerca:35.24     Coste:226
+        C33554419 ->     23 arboles cortados: 8 19 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:164.00   Cerca:10.00     Coste:229
+        C33554420 ->     22 arboles cortados: 12 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:168.00   Cerca:32.76     Coste:232
+        C33554421 ->     23 arboles cortados: 8 12 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:170.00   Cerca:7.21      Coste:235
+        C33554422 ->     23 arboles cortados: 19 12 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:170.00          Cerca:26.31     Coste:235
+        C33554423 ->     24 arboles cortados: 8 19 12 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25     Madera:172.00          Cerca:0.00      Coste:238
+        C33554424 ->     22 arboles cortados: 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25         Madera:183.00   Cerca:39.09     Coste:235
+        C33554425 ->     23 arboles cortados: 8 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:185.00   Cerca:12.00     Coste:238
+        C33554426 ->     23 arboles cortados: 19 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:185.00          Cerca:34.18     Coste:238
+        C33554427 ->     24 arboles cortados: 8 19 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25     Madera:187.00          Cerca:0.00      Coste:241
+        C33554428 ->     23 arboles cortados: 12 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25       Madera:191.00          Cerca:32.00     Coste:244
+        C33554429 ->     24 arboles cortados: 8 12 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25     Madera:193.00          Cerca:0.00      Coste:247
+        C33554430 ->     24 arboles cortados: 19 12 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25     Madera:193.00         Cerca:0.00      Coste:247
+        C33554431 ->     25 arboles cortados: 8 19 12 10 5 15 4 22 3 11 13 2 6 20 9 14 17 23 24 18 1 7 21 16 25   Madera:195.00         Cerca:0.00      Coste:250
+
+real    136m33.017s
+user    9m3.620s
+sys     3m16.950s

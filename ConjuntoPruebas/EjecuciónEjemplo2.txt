@@ -1,0 +1,18 @@
+ time ./CalcArboles Ejemplo2.dat Ejemplo2.res
+Datos Entrada:
+        ?rboles: 3.
+        ?rbol 1-> (3,0) Coste:10, Long:2.
+        ?rbol 2-> (5,5) Coste:20, Long:25.
+        ?rbol 3-> (7,-3) Coste:30, Long:32.
+Evaluacin Combinaciones posibles:
+        C1 ->    1 arboles cortados: 1       Madera:2.00        Cerca:16.49     Coste:999999
+        C2 ->    1 arboles cortados: 2       Madera:25.00       Cerca:10.00     Coste:20***
+        C3 ->    2 arboles cortados: 1 2     Madera:27.00       Cerca:0.00      Coste:30
+        C4 ->    1 arboles cortados: 3       Madera:32.00       Cerca:10.77     Coste:30
+        C5 ->    2 arboles cortados: 1 3     Madera:34.00       Cerca:0.00      Coste:40
+        C6 ->    2 arboles cortados: 2 3     Madera:57.00       Cerca:0.00      Coste:50
+        C7 ->    3 arboles cortados: 1 2 3   Madera:59.00       Cerca:0.00      Coste:60
+
+real    0m0.001s
+user    0m0.000s
+sys     0m0.000s
